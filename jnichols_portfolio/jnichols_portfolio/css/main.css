@@ -1,0 +1,153 @@
+
+/* ==========================================================================
+   Base styles:
+   ========================================================================== */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+}
+
+/*Body*/
+body {
+ color: #2B2D2C;
+font-family: 'Raleway', sans-serif;
+}
+.headshot img {
+  max-width: 300px;
+}
+
+#image_1, #image_2, #image_3 {
+  max-width: 300px;
+}
+
+
+/*Header*/
+header {
+  background-image: url('../img/dominik-martin-100802.jpg');
+  background-size: cover;
+  height: 800px;
+  padding-top: 90px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #E5EDFA;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 100;
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+  letter-spacing: 0.75px;
+	padding: 10px 20px;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 60px;
+  letter-spacing: 20px;
+}
+
+h2 {
+  padding-left: 10px;
+}
+h4 {
+  text-align: right;
+}
+
+a {
+  color: #2B2D2C;
+}
+
+.scrolled {
+  transform: translateY(250px);
+}
+
+/*Layout*/
+.grid-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.flex-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+#projects {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 80px;
+}
+
+article {
+  width: 25%;
+}
+.flex-wrap div {
+  width: 25%;
+}
+/*forms*/
+form {
+  margin: 0 auto;
+  width: 90%;
+  display: block;
+  text-align: center;
+}
+
+
+input, textarea {
+	border: 2px solid #968f90;
+	margin-bottom: 12px;
+	padding: 10px 10px;
+	outline: 0;
+  width: 80%;
+}
+
+/*buttons*/
+button {
+  background-color: #2B2D2C;
+  border: none;
+  color: white;
+  margin-bottom: 12px;
+	padding: 10px 10px;
+	outline: 0;
+  width: 80%;
+}
+
+/*footer*/
+footer {
+	background-color: #E8E8E8;
+	overflow: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-media {
+  padding: 100px;
+}
+
+.social-media a {
+	font-size: 30px;
+	display: inline-block;
+	color: #2B2D2C;
+  margin: 0 10px 0 0;
+}
+
+.copyright {
+	border-top: 2px solid #A9A9A9;
+	padding: 15px 0 3px;
+  font-size: 13px;
+}
