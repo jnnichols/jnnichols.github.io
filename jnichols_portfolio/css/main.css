@@ -13,6 +13,10 @@ img {
 }
 
 /*Body*/
+body {
+ color: #2B2D2C;
+font-family: 'Raleway', sans-serif;
+}
 .headshot img {
   max-width: 300px;
 }
@@ -21,14 +25,16 @@ img {
   max-width: 300px;
 }
 
+
 /*Header*/
 header {
-  background-image: url('../img/tennis-court.jpg');
+  background-image: url('../img/dominik-martin-100802.jpg');
   background-size: cover;
-  height: 500px;
-  padding-top: 80px;
+  height: 800px;
+  padding-top: 90px;
   padding-left: 20px;
   padding-right: 20px;
+  color: #E5EDFA;
 }
 
 nav {
@@ -45,39 +51,103 @@ nav li {
   display: inline-block;
   letter-spacing: 0.75px;
 	padding: 10px 20px;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 60px;
+  letter-spacing: 20px;
+}
+
+h2 {
+  padding-left: 10px;
+}
+h4 {
+  text-align: right;
+}
+
+a {
+  color: #2B2D2C;
+}
+
+.scrolled {
+  transform: translateY(250px);
 }
 
 /*Layout*/
 .grid-wrapper {
   display: flex;
   justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
-section {
-	padding: 50px 10px;
+.flex-wrap {
+  display: flex;
+  justify-content: space-between;
 }
 
 #projects {
   display: flex;
   flex-direction: row;
-}
-.wrap {
-  max-width: 1000px;
-	width: 80%;
-	margin: 0 auto;
+  padding-bottom: 80px;
 }
 
+article {
+  width: 25%;
+}
+.flex-wrap div {
+  width: 25%;
+}
 /*forms*/
-
-
-textarea {
-	display: block;
+form {
+  margin: 0 auto;
+  width: 90%;
+  display: block;
+  text-align: center;
 }
+
 
 input, textarea {
-	border: 2px solid #44545E;
+	border: 2px solid #968f90;
 	margin-bottom: 12px;
 	padding: 10px 10px;
 	outline: 0;
-  width: 100%;
+  width: 80%;
+}
+
+/*buttons*/
+button {
+  background-color: #2B2D2C;
+  border: none;
+  color: white;
+  margin-bottom: 12px;
+	padding: 10px 10px;
+	outline: 0;
+  width: 80%;
+}
+
+/*footer*/
+footer {
+	background-color: #E8E8E8;
+	overflow: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-media {
+  padding: 100px;
+}
+
+.social-media a {
+	font-size: 30px;
+	display: inline-block;
+	color: #2B2D2C;
+  margin: 0 10px 0 0;
+}
+
+.copyright {
+	border-top: 2px solid #A9A9A9;
+	padding: 15px 0 3px;
+  font-size: 13px;
 }
